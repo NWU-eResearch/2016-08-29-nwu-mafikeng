@@ -1,19 +1,19 @@
 ---
 layout: workshop      # DON'T CHANGE THIS.
-carpentry: "FIXME"    # what kind of Carpentry (must be either "dc" or "swc")
-venue: "FIXME"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "FIXME"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
-country: "FIXME"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
-language: "FIXME"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "FIXME"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
-humandate: "FIXME"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "FIXME"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
-startdate: FIXME      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-enddate: FIXME        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["FIXME"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["FIXME"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-contact: "FIXME"      # contact email address for host, lead instructor, or whoever else is handling questions
-etherpad:             # optional: URL for the workshop Etherpad if there is one
+carpentry: "swc"    # what kind of Carpentry (must be either "dc" or "swc")
+venue: "North-West University"        # brief name of host site without address (e.g., "Euphoric State University")
+address: "Mafikeng Campus, Albert Luthuli & University Drive, Mmabatho, Mahikeng, 2790, South Africa"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+country: "za"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
+language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
+latlng: "-25.829108, 25.608657"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+humandate: "Aug 29 - Sept 1, 2016"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humantime: "8:30 am - 13:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+startdate: 2016-08-29       # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
+enddate: 2016-09-01        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+instructor: ["Cameron Macdonell"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Martin Dreyer"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+contact: "eresearch@nwu.ac.za"      # contact email address for host, lead instructor, or whoever else is handling questions
+etherpad:     http://pad.software-carpentry.org/2016-08-29-nwu-mafikeng        # optional: URL for the workshop Etherpad if there is one
 eventbrite:           # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -46,11 +46,6 @@ eventbrite:           # optional: alphanumeric key for Eventbrite registration, 
 </iframe>
 {% endif %}
 
-<h4>This is the workshop template.  Use it to create your own website.
-Delete this line and email the link to your workshop page to admin@software-carpentry.org.
-If this is a self organized workshop, please be sure to include any other details
-Software Carpentry staff may need to know in your email.</h4>
-
 
 <h2 id="general">General Information</h2>
 
@@ -78,6 +73,10 @@ Software Carpentry staff may need to know in your email.</h4>
   </em>
 </p>
 
+<p>
+  This event forms part of a series of Software and Data Carpentry workshops which are run by newly qualified African-based instructors in collaboration with international mentors. The workshops form part of a twelve month program developed by the North-West University, University of Cape Town, Talarify, the Software Carpentry Foundation, Data Carpentry, and Mozilla Science Labs. For more information about the programme, please see <a href="https://figshare.com/articles/A_Programme_for_the_Development_of_Computational_and_Digital_Research_Capacity_in_South_Africa_and_Africa_-_phase_1/3382168">A Programme for the Development of Computational and Digital Research Capacity in South Africa and Africa</a>. 
+</p>
+
 <!--
   AUDIENCE
 
@@ -86,7 +85,7 @@ Software Carpentry staff may need to know in your email.</h4>
 -->
 <p id="who">
   <strong>Who:</strong>
-  The course is aimed at graduate students and other researchers.
+  The course is aimed at graduate students and other researchers from all disciplines, including but not limited to humanities and social sciences, biological and life sciences, economics, engineering, physical sciences. Limited space is available. Preference will be given to those affiliated with the North-West University.
   <strong>You don't need to have any previous knowledge of the tools that will
     be presented at the workshop.</strong>
 </p>
@@ -181,23 +180,46 @@ Software Carpentry staff may need to know in your email.</h4>
   <div class="col-md-6">
     <h3>Day 1</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Automating tasks with the Unix shell</td> </tr>
+      <tr> <td>08:30</td>  <td>Introducing Software & Data Carpentry and Reproducible Research</td> </tr>
+      <tr> <td>09:30</td>  <td>Better Use of Spreadsheets</td> </tr>
       <tr> <td>10:30</td> <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Building programs with Python</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>11:00</td>  <td>OpenRefine for Cleaning Data</td> </tr>
+      <tr> <td>13:00</td>  <td>Break</td> </tr>
+      <tr> <td>14:00</td>  <td>Open Discussion About Own Projects</td> </tr>
+      <tr> <td>15:00</td>  <td>Wrap-up</td> </tr>
     </table>
   </div>
   <div class="col-md-6">
     <h3>Day 2</h3>
     <table class="table table-striped">
-      <tr> <td>09:00</td>  <td>Version control with Git</td> </tr>
-      <tr> <td>10:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>12:00</td>  <td>Lunch break</td> </tr>
-      <tr> <td>13:00</td>  <td>Managing data with SQL</td> </tr>
-      <tr> <td>14:30</td>  <td>Coffee</td> </tr>
-      <tr> <td>16:00</td>  <td>Wrap-up</td> </tr>
+      <tr> <td>08:30</td>  <td>Automation of Repetitive Tasks Using the Shell</td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>11:00</td>  <td>Automation With the Shell (continues)</td> </tr>
+      <tr> <td>13:00</td>  <td>Break</td> </tr>
+      <tr> <td>14:00</td>  <td>Open Discussion About Own Projects</td> </tr>
+      <tr> <td>15:00</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  
+  <div class="col-md-6">
+    <h3>Day 3</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td>Python for Reproducible Research</td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>11:00</td>  <td>Python for Reproducible Research (continues)</td> </tr>
+      <tr> <td>13:00</td>  <td>Break</td> </tr>
+      <tr> <td>14:00</td>  <td>Open Discussion About Own Projects</td> </tr>
+      <tr> <td>15:00</td>  <td>Wrap-up</td> </tr>
+    </table>
+  </div>
+  <div class="col-md-6">
+    <h3>Day 4</h3>
+    <table class="table table-striped">
+      <tr> <td>08:30</td>  <td>Python for Reproducible Research (continues) </td> </tr>
+      <tr> <td>10:30</td> <td>Coffee</td> </tr>
+      <tr> <td>11:00</td>  <td>Python for Reproducible Research (continues)</td> </tr>
+      <tr> <td>12:45</td>  <td>Wrap-up</td></tr>
+      <tr> <td>13:00<td>   </td>Workshop ends</td></tr>
     </table>
   </div>
 </div>
